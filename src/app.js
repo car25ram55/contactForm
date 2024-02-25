@@ -7,7 +7,7 @@
 
 window.onload = function() {
   emailjs.init({
-    publicKey: "ZPoRP6myJxqtvQ1_G"
+    publicKey: ""
   });
 
   const button = document.querySelector("#send-info");
