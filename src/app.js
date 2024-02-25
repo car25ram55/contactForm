@@ -20,12 +20,12 @@ function sendEmail() {
   const message = document.querySelector("#message-input").value;
 
   // To Company from Customer
-  emailjs.send("service_u8xewyl", "template_0jtz59k", {
+  emailjs.send("service_u8xewyl", , {
     to_name: name,
     from_email: email
   });
 
-  emailjs.send("service_u8xewyl", "template_wk2j2a9", {
+  emailjs.send("service_u8xewyl", , {
     to_name: name,
     from_email: email,
     message: message
